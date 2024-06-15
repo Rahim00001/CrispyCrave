@@ -23,3 +23,11 @@ const linkAction = () => {
     navMenu.classList.remove('show_menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+// Shadow header
+const scrollHeader = () => {
+    const header = document.getElementById('header')
+    this.scrollY >= 50 ? header.classList.add('shadow-header')
+        : header.classList.remove('shadow-header')
+}
+window.addEventListener('scroll', scrollHeader)
