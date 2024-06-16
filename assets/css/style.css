@@ -81,7 +81,7 @@ img {
     padding-block: 5rem 1rem;
 }
   
-.section__title {
+.section_title {
     font: var(--font-regular) var(--h1-font-size) var(--second-font);
     text-align: center;
     margin-bottom: 1.5rem;
@@ -402,4 +402,37 @@ img {
 :is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorites_leaf_1,
 :is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorites_leaf_2{
     scale: 1;
+}
+
+
+/* ------Care Section ------ */
+.care {
+    background-color: var(--first-color-dark);
+}
+
+.care_container {
+    row-gap: 3rem;
+    padding-block: 1rem 2rem;
+}
+
+.care_list {
+    display: grid;
+    row-gap: 1.25rem;
+}
+
+.care_item {
+    display: flex;
+    column-gap: .75rem;
+    align-items: center;
+}
+
+.care_item i{
+    font-size: 1.5rem;
+    color: var(--second-color);
+}
+
+.care_img {
+    width: 32opx;
+    filter: var(--shadow-img);
+    justify-self: center;
 }
