@@ -666,3 +666,19 @@ img {
 .footer_link:hover {
     color: var(--second-color);
 }
+
+
+/* -----Scroll Bar */
+::-webkit-scrollbar{
+    width: .6rem;
+    background-color: hsl(170, 50%, 35%);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: hsl(170, 50%, 20%);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: hsl(170, 50%, 15%);
+}
