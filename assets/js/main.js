@@ -39,3 +39,11 @@ const swiperFavorites = new Swiper('.favorites_swiper', {
     slidesPerView: 'auto',
     centeredSlides: 'auto',
 });
+
+// Show ScrollUp Btn
+const scrollUp = () => {
+    const scrollUp = document.getElementById('scroll_up')
+    this.scrollY >= 350 ? scrollUp.classList.add('show_scroll')
+        : scrollUp.classList.remove('show_scroll')
+}
+window.addEventListener('scroll', scrollUp)
