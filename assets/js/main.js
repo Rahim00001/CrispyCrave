@@ -68,3 +68,21 @@ const scrollActive = () => {
     })
 }
 window.addEventListener('scroll', scrollActive)
+
+// Scroll Reaveal
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 300,
+    reset: true,
+})
+
+sr.reveal(`.home_data, .fevorites_container, .footer_container`)
+sr.reveal(`.home_circle, home_img`, { delay: 600, scale: .5 })
+sr.reveal(`.home_leaf`, { delay: 1200 })
+sr.reveal(`.home_chips_1, .home_chips_2, .home_chips_3`, { delay: 1000, interval: 100 })
+sr.reveal(`.home_tomato_1, .home_tomato_2`, { delay: 1400, interval: 100 })
+sr.reveal(`.care_list, .contact_img`, { origin: 'right' })
+sr.reveal(`.care_img, .contact_data`, { origin: 'left' })
+sr.reveal(`.banner_item, .products_card`, { interval: 100 })
