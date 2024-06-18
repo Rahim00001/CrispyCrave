@@ -798,3 +798,286 @@ img {
     }
 }
 
+/* Large devices */
+@media screen and (min-width: 1150px) {
+    .container {
+        margin-inline: auto;
+    }
+
+    .section {
+        padding-block: 7rem 2rem;
+    }
+
+    .section_title{
+        margin-bottom: 2rem;
+    }
+
+    .nav {
+        height: calc(var(--header-height) + 2rem);
+    }
+
+    .nav_toggle,
+    .nav_close{
+        display: none;
+    }
+
+    .nav_link{
+        font-size: var(--normal-font-size);
+    }
+
+    .nav_menu {
+        display: flex;
+        column-gap: 3rem;
+        align-items: center;
+    }
+
+    .nav_list {
+        flex-direction: row;
+        column-gap: 4rem;
+    }
+
+    .home_container {
+        grid-template-columns: 420px 585px;
+        align-items: center;
+        column-gap: 6rem;
+        padding-top: 5rem;
+    }
+
+    .home_data {
+        text-align: initial;
+    }
+
+    .home_title {
+        margin-bottom: 1.5rem;
+    }
+
+    .home_desc {
+        margin-bottom: 4rem;
+    }
+
+    .home_buttons {
+        justify-content: initial;
+        column-gap: 1.5rem;
+    }
+
+    .home_meat {
+        width: 80px;
+        top: 13rem;
+    }
+
+    .home_circle {
+        width: 550px;
+        height: 550px;
+    }
+
+    .home_subcircle {
+        width: 450px;
+        height: 450px;
+    }
+
+    .home_images .home_img {
+        width: 400px;
+    }
+
+    .home_images img {
+        width: 95px;
+    }
+
+    .fevorites_container {
+        grid-template-columns: 520px;
+        row-gap: 4rem;
+    }
+
+    .favorites_cheese_1,
+    .favorites_cheese_2 {
+        width: 80px;
+    }
+
+    .favorites_cheese_1 {
+        right: -18rem;
+    }
+
+    .favorites_cheese_2 {
+        left: -18rem;
+    }
+
+    .favorites_swiper {
+        max-width: 1000px;
+    }
+
+    .favorites_article,
+    .favorites_img {
+        width: 320px;
+    }
+
+    .favorites_leaf_1,
+    .favorites_leaf_2 {
+        width: 110px;
+    }
+
+    .care_container {
+        grid-template-columns: 500px 410px;
+        column-gap: 6rem;
+        align-items: center;
+        padding-block: 4rem;
+    }
+
+    .care_img {
+        width: 550px;
+        order: -1;
+    }
+
+    .care_item {
+        column-gap: 1rem;
+    }
+
+    .care_item i {
+        font-size: 2rem;
+    }
+
+    .banner {
+        padding-top: 4rem;
+    }
+
+    .banner_list {
+        column-gap: 6.5rem;
+    }
+
+    .banner_item {
+        column-gap: 1rem;
+    }
+
+    .banner_item i {
+        font-size: 4.5rem;
+    }
+
+    .banner_item span {
+        font-size: var(--h1-font-size);
+    }
+
+    .products_container {
+        padding-top: 7.5rem;
+    }
+
+    .products_content {
+        grid-template-columns: repeat(3, 250px);
+        gap: 10rem 4rem;
+    }
+
+    .products_card {
+        padding: 11rem 2rem 2rem;
+        border-radius: 1.5rem;
+    }
+
+    .products_img {
+        width: 170px;
+        top: -5rem;
+    }
+
+    .products_subtitle {
+        font-size: var(--normal-font-size);
+    }
+
+    .products_price {
+        font-size: var(--h3-font-size);
+    }
+
+    .products_btn {
+        right: 2rem;
+        bottom: 2rem;
+        padding: 6px;
+        font-size: 1.5rem;
+        border-radius: .5px;
+    }
+
+    .products_crab,
+    .products_hamburger,
+    .products_cheese {
+        width: 80px;
+    }
+
+    .products_crab {
+        top: 2rem;
+    }
+
+    .products_hamburger {
+        top: 30rem;
+        right: 3rem;
+    }
+
+    .products_cheese {
+        left: 4rem;
+        margin: initial;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .contact_container {
+        border-radius: 4rem;
+    }
+
+    .contact_content {
+        grid-template: 330px / 360px 320px;
+        justify-content: center;
+        align-items: flex-start;
+        column-gap: 10rem;
+        padding-top: 2rem;
+    }
+
+    .contact_data {
+        text-align: initial;
+        grid-template: max-content / repeat(2, max-content);
+        gap: 3rem 2rem;
+    }
+
+    .contact_title {
+        margin-bottom: .75rem;
+    }
+
+    .contact_social {
+        justify-content: initial;
+    }
+
+    .contact_img {
+        width: 320px;
+        transform: translateY(-6rem);
+    }
+
+    .contact_crab,
+    .contact_shrimp,
+    .contact_meat {
+        width: 80px;
+    }
+
+    .contact_shrimp {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 20rem;
+    }
+
+    .contact_crab {
+        top: 5rem;
+        left: 4rem;
+    }
+
+    .contact_meat {
+        right: initial;
+        left: 12rem;
+        bottom: -1rem;
+    }
+
+    .footer {
+        padding-block: 5rem 3rem;
+    }
+
+    .footer_container {
+        row-gap: 3rem;
+    }
+
+    .scrollup {
+        right: 3rem;
+    }
+}
